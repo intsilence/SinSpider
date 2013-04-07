@@ -14,6 +14,7 @@ TYPERECORDALLHTML = 1
 TYPENORECORDHTML = 2
 
 class SinOpener(FancyURLopener):
+    # 下面是爬虫的标识，现在用的是Google的爬虫标识，有的网站不让随随便便爬，只能盗用Google的标识了，研究而已，不要乱爬
     version = 'Googlebot'
 
 sinopener = SinOpener()
